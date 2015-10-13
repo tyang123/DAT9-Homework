@@ -1,30 +1,34 @@
-What is the question you hope to answer?
+*What is the question you hope to answer?
 
-The question I'm hoping to answer is, What colleges are POSITIVE return on investment, and which colleges are NEGATIVE return on investments for low-income, single parent, minority, urban high school students? 
+The question I'm hoping to answer is, What colleges are POSITIVE return on investment,
+and which colleges are NEGATIVE return on investments for low-income, single parent,minority, urban high school students? 
 
-The social phenomenon I'm trying to "hack" is the concept of "undermatching", where top low-income students do not apply to elite private schools because of perceived cost/underqualification.
-
-
-What data are you planning to use to answer that question?
-The data I will use is the White House scorecard data available at 
-https://collegescorecard.ed.gov/data/
+The social phenomenon I'm trying to "hack" is the concept of "undermatching", 
+where top low-income students do not apply to elite private schools because of perceived cost/underqualification.
 
 
+*What data are you planning to use to answer that question?
+The data I will use is the White House scorecard data available at  https://collegescorecard.ed.gov/data/
+
+*What do you know about the data so far?
+I have a data Dictionary, and know that the data contains 18 years of institutional, financial, geographic
+and cultural information on colleges in the United States.
+
+*Why did you choose this topic?
+As a Washington sports fan, I've suffered from a lifetime of wasted talent and wasted potential. I get incredibly
+upset witnessing this everyday in a low-income school, when high achieving low-income students get preyed upon by
+low-performing colleges who steal their tuition and financial aid dollars. 
+
+Public school teachers do not have the capability to understand private capital markets, and guidance counselors
+are not compensated or incentivized to maximize the college opportunities for their students.
+
+In order to ensure economic outcomes for all American children, we need a analytics, data-driven classification engine
+to reveal the truth about the immense value/affordability of a private, elite university degree, and to direct students
+away from predatory universities that do not serve the public good and do not support acceptable levels of student graduation.
 
 
-What do you know about the data so far?
-I have a data Dictionary, and know that the data contains 18 years of institutional, financial, geographic and cultural information on colleges in the United States.
-
-Why did you choose this topic?
-As a Washington sports fan, I've suffered from a lifetime of wasted talent and wasted potential. I get incredibly upset witnessing this everyday in a low-income school, when high achieving low-income students get preyed upon by low-performing colleges who steal their tuition and financial aid dollars. 
-
-Public school teachers do not have the capability to understand private capital markets, and guidance counselors are not compensated or incentivized to maximize the college opportunities for their students.
-
-In order to ensure economic outcomes for all American children, we need a analytics, data-driven engine to reveal the truth about the value of a private, elite university degree, and to direct students away from predatory universities that do not serve the public good and do not support acceptable levels of student graduation.
 
 
-
-By June 22, you should talk with a member of the instructional team about your project idea(s). We can help you to choose between different ideas, advise you on the appropriate scope for your project, and ensure that your project question might reasonably be answerable using the data science tools and techniques taught in the course. (There is nothing you have to turn in for this milestone.)
 
 
 
