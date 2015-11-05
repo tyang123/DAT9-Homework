@@ -32,7 +32,7 @@ import requests
 url = r'https://raw.githubusercontent.com/ga-students/DAT-DC-9/master/data/example.html?token=AG8aPhA-GT-gTGX3iXysiHnk2BLKJmttks5WLS2rwA%3D%3D'
 r = requests.get(url)
 
-print r.text
+print r
 
 # convert HTML into a structured Soup object
 from bs4 import BeautifulSoup
@@ -53,16 +53,21 @@ b.find(name='h1')['id']
 # 'find_all' method is useful for finding all matching Tags
 results=b.find_all(name='p')
 type(results)
+
 # ResultSets can be sliced like lists
 
 for result in results:
     print result, '\n'
+
+#len(b.find_all(name='p'))
+#b.find_all(name='p')[0]
+#b.find_all(name='p')[0].text
+#b.find_all(name='p')[0]['id']
+
 # iterate over a ResultSet
 #specify the one that I care about.
     b.find(name='p', attrs={'id':'scraping'}).text
     
-
-
 # limit search by Tag attribute
 
 # limit search to specific sections
@@ -206,6 +211,8 @@ def get_movie_info(imdb_id):
 # open the file of IDs (one ID per row), and store the IDs in a list
 imdbIDList = []
 
+from time import sleep
+
 import csv
 with open('C:\Users\Brittany\DAT9-class\WEEK5\DAT-DC-9\data\imdb_ids.txt', 'rU') as inputIMDBFile:
     imdbReader=csv.reader(inputIMDBFile,delimiter='\n')
@@ -213,6 +220,7 @@ with open('C:\Users\Brittany\DAT9-class\WEEK5\DAT-DC-9\data\imdb_ids.txt', 'rU')
     for row in imdbReader:
         imdbIDList.append(row)
         print(row)
+        sleep(2)
 
 # get the information for each movie, and store the results in a list
 movieInfoList= []
@@ -279,6 +287,8 @@ writerList=b.find_all(name='div', attrs={'itemprop':'creator'})
 print writerList
 
 # limit search to a smaller section to only get the writers
+
+
 
 #Not sure where this is found
 
